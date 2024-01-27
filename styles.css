@@ -1,0 +1,108 @@
+body{
+    font-size: small;
+}
+
+::placeholder {
+font-size: small;
+ }
+.facebook-login a  {
+    color: rgba(11, 12, 98, 0.921);
+    text-decoration: none;
+}
+
+.facebook-login {
+    text-align: center;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+.facebook-login i {
+    vertical-align: middle;
+    color: rgb(12, 12, 102);
+}
+
+.btn {
+    background-color: rgb(77, 170, 241);
+    color: #fff;
+    width: 100%;
+    border-radius: 10px;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.btn:hover {
+    color: #fff;
+}
+
+
+.or-divider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin: 20px 0;
+}
+
+.hr1,
+.hr2 {
+    width: 40%;
+    height: 2px;
+}
+
+.or-text {
+    padding: 0 10px;
+    color: #888;
+
+}
+footer{
+    padding-top: 150%;
+}
+
+select {
+    
+    border: none;
+    outline: none;
+    font-size: inherit;
+    font-family: inherit;
+    color: inherit;
+    width: auto;
+    background-color: transparent;
+}
+
+#no{
+    color: #0095f6;
+
+}
+#no:hover{
+    color:#0095f6;
+    text-decoration:none;
+}
+
+#fgt{
+    color:#385185;
+}
+#fgt:hover{
+    color:#385185;
+}
+.video{
+    background-color: #fff;
+}
+.store{
+    display: flex;
+    float: left;
+    
+}
+@media screen and (max-width: 958px) {
+    .card {
+        display: block;
+    }
+    .video{
+        display: none;
+    }
+
+}
+
+
+
